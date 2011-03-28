@@ -223,7 +223,10 @@ class tx_wtcart_pi1 extends tslib_pibase {
                   wt_cart Error
                 </h1>
                 <p>
-                  tax is "' . $product['tax'] . '". This is an undefined value in class.tx_wtcart_pi1.php. ABORT!
+                  tax is "' . $product['tax'] . '".<br />
+                  This is an undefined value in class.tx_wtcart_pi1.php. ABORT!<br />
+                  <br />
+                  Are you sure, that you included the wt_cart static template?
                 </p>
               </div>';
             exit;

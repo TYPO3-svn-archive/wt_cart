@@ -4,9 +4,21 @@
 
     * Release of wt_cart 1.2.2
     * ADD feature #12283: Extend wt_cart for related tables
+                          - Both HTML templates are affected!
+                            New marker ###VARIATIONS###
+                          - files/static/setup.txt is affected!
+                            new TS property:
+                            db.sql
     * ADD feature #12282: Use wt_cart with tax rates instead of ids for tax rates
+                          - files/static/setup.txt is affected!
+                            new TS property:
+                            settings.fields.tax.default
     * ADD feature #12278: Variations
-                          Both HTML templates are affected!
+                          - Both HTML templates are affected!
+                            New marker ###QTY_NAME###
+                          - files/static/setup.txt is affected!
+                            new TS property:
+                            settings.variation
     * ADD feature #12254: Prompt for error and query in case of an SQL error
 
 1.2.1

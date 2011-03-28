@@ -467,7 +467,7 @@ class tx_wtcart_div extends tslib_pibase {
     $this->zz_replace_marker_in_sql($gpvar, $pObj);
       // Get the SQL query from ts
     $query  = $pObj->conf['db.']['sql'];
-    //var_dump('div 319', $query);
+//var_dump('div 470', $query);
       // Execute the query
     $res    = $GLOBALS['TYPO3_DB']->sql_query($query);
     $error  = $GLOBALS['TYPO3_DB']->sql_error();  // 12254, 110116, dwildt
