@@ -1,8 +1,9 @@
-1.2.2
+1.3.0
     2011-01-16
     Dirk Wildt <http://wildt.at.die-netzmacher.de>
 
-    * Release of wt_cart 1.2.2
+    * Release of wt_cart 1.3.0
+    * Updated manual
     * ADD feature #12283: Extend wt_cart for related tables
                           - Both HTML templates are affected!
                             New marker ###VARIATIONS###
